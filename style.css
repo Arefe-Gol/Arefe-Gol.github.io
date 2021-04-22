@@ -503,6 +503,7 @@ a {
 }
 
 .slider-container .caption {
+    text-shadow: 0 0 5px black;
     position: absolute;
     bottom: 10%;
     left: 5%;
@@ -553,6 +554,7 @@ a {
 .slider-navigator .thumbnail .title {
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 5px black;
     
     font-size: 18px;
     font-weight: 400;
