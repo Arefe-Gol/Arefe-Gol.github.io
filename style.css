@@ -510,8 +510,9 @@ a {
     left: 5%;
 }
 
-.slider-container .title {
+.slider-container .caption-title {
     border: none;
+    font-size: 35px;
 }
 
 .slider-navigator {
@@ -552,7 +553,7 @@ a {
     transform: scale(0.98);
 }
 
-.slider-navigator .thumbnail .title {
+.slider-navigator .thumbnail .caption-title {
     width: 100%;
     text-align: center;
     text-shadow: 0 0 5px black;
@@ -561,7 +562,7 @@ a {
     font-weight: 400;
     
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translate(0, -50%);
 }
 
