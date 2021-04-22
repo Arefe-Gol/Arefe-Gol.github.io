@@ -343,6 +343,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 #radar-chart-container div {
@@ -585,6 +586,10 @@ a {
 @media screen and (max-width: 1300px) {
     .slider-container {
         height: 50vh
+    }
+
+    #radar-chart-container {
+        display: none;
     }
 
     #XYchart-container, #Ganttchart-container {

@@ -5,7 +5,6 @@ var colorSet = new am4core.ColorSet();
 
 var radarContainer1, radarContainer2, radarContainer3;
 
-// Main container of everything
 radarContainer1 = am4core.create("radar1-container", am4core.Container);
 radarContainer1.width = am4core.percent(100);
 radarContainer1.height = am4core.percent(100);
@@ -143,7 +142,6 @@ function createRadarChart(container, data, labelText) {
     radarSeries.tooltip.label.fill = am4core.color("#f5f5f5");
     radarSeries.tooltip.background.stroke = am4core.color("Transparent");
 
-    
     radarSeries.dataFields.valueY = "value";
     radarSeries.dataFields.categoryX = "category";
     
