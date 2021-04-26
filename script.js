@@ -176,9 +176,9 @@ function createRadarChart(container, data, labelText) {
 
 // where radar chart is created and animated from bottom to top, also where area's chart values are animated to bend around pie.
 function stage0() {
-    var [radarChart1, radarSeries1] = createRadarChart(radarContainer1, data1, "Master of Engineering Leadership\n[font-size: 12]High-Performance Building[/]\n[font-size: 12 opacity: 0.5]University of British Columbia, Vancouver, BC, Canada[/]")
+    var [radarChart1, radarSeries1] = createRadarChart(radarContainer1, data1, "Bachelor of Science\n[font-size: 12]Architectural Engineering[/]\n[font-size: 12 opacity: 0.5]Semnan University, Semnan, Iran[/]")
     var [radarChart2, radarSeries2] = createRadarChart(radarContainer2, data2, "Master of Science\n[font-size: 12]Project and Construction Management[/]\n[font-size: 12 opacity: 0.5]Shahid Beheshti University, Tehran, Iran[/]")
-    var [radarChart3, radarSeries3] = createRadarChart(radarContainer3, data3, "Bachelor of Science\n[font-size: 12]Architectural Engineering[/]\n[font-size: 12 opacity: 0.5]Semnan University, Semnan, Iran[/]")
+    var [radarChart3, radarSeries3] = createRadarChart(radarContainer3, data3, "Master of Engineering Leadership\n[font-size: 12]High-Performance Building[/]\n[font-size: 12 opacity: 0.5]University of British Columbia, Vancouver, BC, Canada[/]")
 
     // headerLabel.y = 70;
     radarChart1.hide(0);
