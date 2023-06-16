@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,250 +11,466 @@
     <title>Arefe Goolpour | Personal Portfolio</title>
 
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <div class="pre-loading">
-        <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 
-    <div id="sub" class="container">
+    <div id="profile" class="container">
         <div id="intro" class="banner">
-            <div id="avatar"></div>
-            <div id="biography">
-                <span class="title">Arefe Goolpour</span>
-                <div class="discription">A results-oriented project manager and architect, experienced in planning and monitoring design and construction projects. Professionally trained in multidisciplinary areas including project management, business and brand marketing, architecture and green building design. Recently graduated in the master of engineering leadership from the University of British Columbia, and excited to join a purposeful company.</div>
+            <span class="icon-title">
+                <div class="icon">
+                    <!-- <img src="ui/profile.png" alt="profile.png"> -->
+                    <img src="ui/key.png" alt="qualifications.png">
+                </div>
+                <p>Arefe Golpour</p>
+            </span>
+            <div id="info">
+                <div id="avatar"></div>
+                <div id="biography">
+                    <div class="discription">A PMI-Certified Project Management Professional (PMP) with 6+ years of
+                        experience in Project Management. Educated & professionally trained in multidisciplinary areas
+                        including Project Management methodologies, Agile Management, Business Development, Processes Identification,
+                        Leadership, Data Analysis, Sustainability, Green Building Design.</div>
+                </div>
             </div>
         </div>
 
         <div id="contact" class="banner">
-            <div id="phone" class="detail"><a href="tel:123-456-7890"><i class="fas fa-phone-alt"></i>&nbsp; +1 614 779 5751</a></div>
-            <div id="email" class="detail"><a href="mailto: arefegolpour@gmail.com"><i class="fas fa-at"></i>&nbsp; arefegolpour@gmail.com</a></div>
 
-            <div  id="button-box">
-                <a href="Documents/Arefe Golpour CV-2021.pdf" class="button">Download Resume</a>
+            <div id="phone" class="detail"><a href="tel:123-456-7890"><i class="fas fa-phone-alt"></i>&nbsp; +1 604 779
+                    5751</a></div>
+            <div id="email" class="detail"><a href="mailto: arefegolpour@gmail.com"><i class="fas fa-at"></i>&nbsp;
+                    arefehgolpour@gmail.com</a></div>
+
+            <!-- <div id="button-box">
                 <a href="#certificates" class="button">Additional Documents</a>
                 <a href="#portfolio" class="button">Design Portfolio</a>
-            </div>
+            </div> -->
 
             <div id="social-box">
-                <a id="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a id="facebook" target="_blank"><i class="fab fa-github"></i></a>
-                <a id="twitter" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
-                <a id="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a id="linkedin" href="https://linkedin.com/in/arefe-goolpour" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a id="facebook" href="https://github.com/arefe-gol" target="_blank"><i class="fab fa-github"></i></a>
+                <a id="email" href="mailto:arefehgolpour@gmail.com"><i class="fas fa-at"></i></a>
             </div>
         </div>
     </div>
 
-    <div class="chart-container banner" id="radar-chart-container">
-        <p class="chart-title">What I have learned through the years...</p>
-        <div id="radar1-container"></div>
-        <div id="radar2-container"></div>
-        <div id="radar3-container"></div>
-    </div>
-
-    <div class="chart-container banner">
-        <div id="XYchart-container"></div>
-        <div id="Ganttchart-container"></div>
-    </div>
-
-    <div id="qualifications" class="banner">
-        <span class="title">Key Qualifications</span>
+    <details id="qualifications" class="banner">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-bullseye-arrow"></i>
+            </div>
+            <p><span class="details-toggle"></span> Key Qualifications</p>
+        </summary>
         <ul id="qualifications-list">
-            <li>-	PMI certified project management professional, (certification issued by March 2021).</li>
-            <li>-	Notable work experience at top full-service construction companies with successful PMOS.</li>
-            <li>-	Hands-on experience in implementing Enterprise Project Management at a consulting company.</li>
-            <li>-	Proficient in architectural, graphic design, and presentation tools with strong attention to details.</li>
-            <li>-	Strong Leadership and communication skills, and able to inspire creativity in people around me.</li>
-            <li>-	Proficient at project management and presentation software tools such as MS Project and PowerPoint.</li>
-            <li>-	Comprehensive knowledge of project management standards (PMBOK, PRINCE2, PMDC, and OPM3).</li>
-            <li>-	Familiar with, and feel confident to apply, Waterfall, Agile, and Hybrid project management methodologies.</li>
-            <li>-	Familiar with BC Building Codes and enhanced knowledge in BC construction industry achieved by pursuing a master of engineering leadership in High-Performance Building at UBC.</li>
-        </ul>    
-    </div>
-    <div id="certificates" class="banner">
-        <span class="title">Certificates</span>
-        <ul id="certificates-list">
-            <li style="background-image: url(Certificates/Arefe\ Goolpour\ PMP.jpg);"><a href="Certificates/Arefe Goolpour PMP.jpg">PMP (Project Management Professional)-2021</a></li>
-            <li style="background-image: url(Certificates/MS\ Project.jpg);"><a href="Certificates/MS Project.jpg">Microsoft Project Certification - 2017</a></li>
-            <li style="background-image: url(Certificates/Adobe\ Photoshop.jpg);"><a href="Certificates/Adobe Photoshop.jpg">Adobe Photoshop CC - 2015</a></li>
-            <li style="background-image: url(Certificates/VRay.jpg);"><a href="Certificates/VRay.jpg">V-Ray Rendering - 2014</a></li>
-            <li style="background-image: url(Certificates/3D\ Max.jpg);"><a href="Certificates/3D Max.jpg">Autodesk 3ds Max -2014</a></li>
-            <li style="background-image: url(Certificates/AutoCAD.jpg);"><a href="Certificates/AutoCAD.jpg">Auto CAD (Tehran Institute of Technology) -2013</a></li>
+            <li>Notable work experience at top Design-Build companies with progressive increase of responsibilities.
+            </li>
+            <li>Experienced at coordinating and managing projects with a Budget Size of $1M-$15M.</li>
+            <li>Implemented Enterprise Projects Management (EPM) systems to track and record detailed financial and
+                scheduling data, resulting in more accuratex forecasting.</li>
+            <li>Proficient at Data Visualization and Transformation into Actionable Insights (Experience with Tableau).
+            </li>
+            <li>Strong Leadership and Communication skills, and able to inspire creativity in the team.</li>
+            <li>Proficient at Project Management Software Tools incl. Microsoft Project, Smartsheet, etc.</li>
+            <li>Proficient at Presentation Software Tools such as PowerPoint, Prezi, In-Design, etc.</li>
+            <li>Experienced at applying Waterfall, Agile, and Hybrid project management methodologies.</li>
+            <li>Comprehensive knowledge of PM standards such as PMBOK, PRINCE2, PMDC, and OPM3 by pursuing a Master of
+                Project Management at SBU, Iran<br />(Master Thesis on Agile Project Management).</li>
+            <li>Enhanced knowledge of Sustainability and Leadership achieved by pursuing a Master of Engineering
+                Leadership in High-Performance Building at UBC, Canada.</li>
+            <li>Outstanding Analytical Thinking, Problem-Solving, and Business Development Skills.</li>
         </ul>
+    </details>
 
-    </div>
+    <details class="banner" id="radar-container">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <p><span class="details-toggle"></span> Educational Journey</p>
+        </summary>
+        <div id="radar-chart"></div>
+    </details>
 
-    <div id="portfolio" class="banner">
-        <div class="title">Portfolio</div>
+    <details class="banner" id="experience-container">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <p><span class="details-toggle"></span> Professional Experiences</p>
+        </summary>
+        <div id="experience-showcase">
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>PMO Manager</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">Aura Office Environment Inc., Vancouver, BC, V7Y 1A1</p>
+                    <p class="experience-date">May 2022 - Present</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Sr. Project Coordinator</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">Aura Office Environment Inc., Vancouver, BC, V7Y 1A1</p>
+                    <p class="experience-date">Jun 2021 - Jun 2022</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Enterprise Project Management<br />(EPM) Implementer</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">SAMIX IT Corp., Tehran, Iran.</p>
+                    <p class="experience-date">2018 - Project Based</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Project Coordinator</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">Kimeh Sazan Kohan, Tehran, Iran.</p>
+                    <p class="experience-date">Feb 2018 - Dec 2019</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Architectural Designer</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">KSA Architecture Consulting Group, Tehran, Iran.</p>
+                    <p class="experience-date">Sep 2017 - Feb 2018</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Project Control Specialist</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">Kimeh Sazan Kohan, Tehran, Iran.</p>
+                    <p class="experience-date">Sep 2016 - Jul 2017</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+            <div>
+                <div class="experience-title">
+                    <span class="experience-title-box">
+                        <span class="bullet"><i class="fas fa-circle"></i></span>
+                        <strong>Technical Office Team Member</strong>
+                    </span>
+                </div>
+                <div class="experience-details">
+                    <p class="experience-loc">Rahyab Behineh Consulting Engineers Company, Tehran, Iran.</p>
+                    <p class="experience-date">2016 - CO-OP</p>
+                    <!-- <p class="experience-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam,
+                        earum laborum tempore cupiditate perspiciatis eaque sapiente quasi aliquam maxime est quisquam
+                        deserunt fuga quia recusandae.</p> -->
+                </div>
+            </div>
+        </div>
+    </details>
 
+    <details class="banner" id="XY-container">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <p><span class="details-toggle"></span> Software Skills</p>
+        </summary>
+        <div id="XY-chart"></div>
+    </details>
 
+    <details class="banner" id="programs-container">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <p><span class="details-toggle"></span> Software Skills</p>
+        </summary>
+        <div id="software-showcase"></div>
+    </details>
 
-        <div class="slider-container">
-            <div class="slides-container">
-                <div class="slide active" style="background-image: url(Slides/hospital/perspective/1.jpg);">
-                    <div class="caption">
+    <details id="certificates" class="banner">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-file-certificate"></i>
+            </div>
+            <p><span class="details-toggle"></span> Certificates</p>
+        </summary>
+
+        <ul id="certificates-list">
+            <li style="background-image: url(Certificates/Arefe\ Goolpour\ PMP.jpg);"><a
+                    href="Certificates/Arefe Goolpour PMP.jpg">PMP (Project Management Professional)-2021</a></li>
+            <li style="background-image: url(Certificates/MS\ Project.jpg);"><a
+                    href="Certificates/MS Project.jpg">Microsoft Project Certification - 2017</a></li>
+            <li style="background-image: url(Certificates/Adobe\ Photoshop.jpg);"><a
+                    href="Certificates/Adobe Photoshop.jpg">Adobe Photoshop CC - 2015</a></li>
+            <li style="background-image: url(Certificates/VRay.jpg);"><a href="Certificates/VRay.jpg">V-Ray
+                    Rendering -
+                    2014</a></li>
+            <li style="background-image: url(Certificates/3D\ Max.jpg);"><a href="Certificates/3D Max.jpg">Autodesk
+                    3ds
+                    Max -2014</a></li>
+            <li style="background-image: url(Certificates/AutoCAD.jpg);"><a href="Certificates/AutoCAD.jpg">Auto CAD
+                    (Tehran Institute of Technology) -2013</a></li>
+        </ul>
+    </details>
+
+    <details id="portfolio" class="banner">
+        <summary class="icon-title">
+            <div class="icon">
+                <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <p><span class="details-toggle"></span> Design Portfolio</p>
+        </summary>
+
+        <div id="projects-container">
+            <div class="slider-container">
+                <div class="slides-container">
+                    <div class="slide active" style="background-image: url(Slides/hospital/perspective/1.jpg);">
+                        <div class="caption">
+                            <p class="caption-title">Tehran's Children Hospital</p>
+                            <span class="discription">Architectural Design IV, 2014</span>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/hospital/perspective/2.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/hospital/perspective/3.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/hospital/perspective/4.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/hospital/perspective/5.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/hospital/perspective/6.jpg);"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/1.plan.jpg); background-size: contain;"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/2.plan.jpg); background-size: contain;"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/3.plan.jpg); background-size: contain;"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/4.plan.jpg); background-size: contain;"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/5.plan.jpg); background-size: contain;"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/hospital/cad/11.plan.jpg); background-size: contain;"></div>
+                </div>
+
+                <div class="slider-navigator">
+                    <div class="thumbnail active" style="background-image: url(Slides/hospital/perspective/1.jpg);">
                         <p class="caption-title">Tehran's Children Hospital</p>
-                        <span class="discription">Architectural Design IV, 2014</span>
                     </div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/2.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/3.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/4.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/5.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/6.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/1.plan.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/2.plan.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/3.plan.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/4.plan.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/5.plan.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/hospital/cad/11.plan.jpg);"></div>
                 </div>
-                <div class="slide" style="background-image: url(Slides/hospital/perspective/2.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/perspective/3.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/perspective/4.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/perspective/5.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/perspective/6.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/1.plan.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/2.plan.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/3.plan.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/4.plan.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/5.plan.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/hospital/cad/11.plan.jpg); background-size: contain;"></div>
             </div>
-          
-            <div class="slider-navigator">
-                <div class="thumbnail active" style="background-image: url(Slides/hospital/perspective/1.jpg);">
-                    <p class="caption-title">Tehran's Children Hospital</p>
+
+
+
+
+            <div class="slider-container">
+                <div class="slides-container">
+                    <div class="slide active"
+                        style="background-image: url(Slides/familyBookGarden/2.Perspective\ 4.jpg);">
+                        <div class="caption">
+                            <p class="caption-title">Family Library</p>
+                            <span class="discription">Final Design Project, 2016</span>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/3.Perspective\ 2.jpg);">
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/4.Perspective\ 1.jpg);">
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/5.Perspective\ 3.jpg);">
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/6.\ interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/7.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/8.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/9.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/10.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/11.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/12.interior.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/1.Site\ Analysis.jpg);">
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/familyBookGarden/Untitled-1.jpg);"></div>
                 </div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/2.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/3.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/4.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/5.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/perspective/6.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/1.plan.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/2.plan.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/3.plan.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/4.plan.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/5.plan.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/hospital/cad/11.plan.jpg);"></div>
-            </div>
-        </div>
 
-
-
-
-        <div class="slider-container">
-            <div class="slides-container">
-                <div class="slide active" style="background-image: url(Slides/familyBookGarden/2.Perspective\ 4.jpg);">
-                    <div class="caption">
+                <div class="slider-navigator" id="slidernav">
+                    <div class="thumbnail active"
+                        style="background-image: url(Slides/familyBookGarden/2.Perspective\ 4.jpg);">
                         <p class="caption-title">Family Library</p>
-                        <span class="discription">Final Design Project, 2016</span>
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/3.Perspective\ 2.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/4.Perspective\ 1.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/5.Perspective\ 3.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/6.\ interior.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/7.interior.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/8.interior.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/9.interior.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/10.interior.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/11.interior.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/12.interior.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/1.Site\ Analysis.jpg);">
+                    </div>
+                    <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/Untitled-1.jpg);"></div>
+                </div>
+            </div>
+
+
+
+            <div class="slider-container">
+                <div class="slides-container">
+                    <div class="slide active" style="background-image: url(Slides/ResidentialComplex/1.filterjpg.jpg);">
+                        <div class="caption">
+                            <p class="caption-title">Residential Complex</p>
+                            <span class="discription">Architectural Design V, 2015</span>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(Slides/ResidentialComplex/2.filter.jpg);"></div>
+                    <div class="slide" style="background-image: url(Slides/ResidentialComplex/3.jpg);"></div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl1.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl2.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl3.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl4.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl5.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl6.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl7.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl8.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl9.jpg); background-size: contain;">
+                    </div>
+                    <div class="slide"
+                        style="background-image: url(Slides/ResidentialComplex/pl10.jpg); background-size: contain;">
                     </div>
                 </div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/3.Perspective\ 2.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/4.Perspective\ 1.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/5.Perspective\ 3.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/6.\ interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/7.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/8.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/9.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/10.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/11.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/12.interior.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/1.Site\ Analysis.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/familyBookGarden/Untitled-1.jpg);"></div>
-            </div>
-          
-            <div class="slider-navigator" id="slidernav">
-                <div class="thumbnail active" style="background-image: url(Slides/familyBookGarden/2.Perspective\ 4.jpg);">
-                    <p class="caption-title">Family Library</p>
-                </div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/3.Perspective\ 2.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/4.Perspective\ 1.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/5.Perspective\ 3.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/6.\ interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/7.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/8.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/9.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/10.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/11.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/12.interior.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/1.Site\ Analysis.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/familyBookGarden/Untitled-1.jpg);"></div>
-            </div>
-        </div>
 
-
-
-        <div class="slider-container">
-            <div class="slides-container">
-                <div class="slide active" style="background-image: url(Slides/ResidentialComplex/1.filterjpg.jpg);">
-                    <div class="caption">
+                <div class="slider-navigator">
+                    <div class="thumbnail active"
+                        style="background-image: url(Slides/ResidentialComplex/1.filterjpg.jpg);">
                         <p class="caption-title">Residential Complex</p>
-                        <span class="discription">Architectural Design V, 2015</span>
                     </div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/2.filter.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/3.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl1.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl2.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl3.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl4.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl5.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl6.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl7.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl8.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl9.jpg);"></div>
+                    <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl10.jpg);"></div>
                 </div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/2.filter.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/3.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl1.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl2.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl3.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl4.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl5.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl6.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl7.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl8.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl9.jpg); background-size: contain;"></div>
-                <div class="slide" style="background-image: url(Slides/ResidentialComplex/pl10.jpg); background-size: contain;"></div>
             </div>
-          
-            <div class="slider-navigator">
-                <div class="thumbnail active" style="background-image: url(Slides/ResidentialComplex/1.filterjpg.jpg);">
-                    <p class="caption-title">Residential Complex</p>
-                </div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/2.filter.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/3.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl1.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl2.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl3.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl4.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl5.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl6.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl7.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl8.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl9.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/ResidentialComplex/pl10.jpg);"></div>
-            </div>
+
         </div>
-
-
-
-        <div class="slider-container">
-            <div class="slides-container">
-                <div class="slide active" style="background-image: url(Slides/Design/pic.jpg);">
-                    <div class="caption">
-                        <p class="caption-title">Family Villa</p>
-                    </div>
-                </div>
-                <div class="slide" style="background-image: url(Slides/Design/1.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/Design/2.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/Design/3.jpg);"></div>
-                <div class="slide" style="background-image: url(Slides/Design/4.jpg);"></div>
-            </div>
-          
-            <div class="slider-navigator">
-                <div class="thumbnail active" style="background-image: url(Slides/Design/pic.jpg);">
-                    <p class="caption-title">Family Villa</p>
-                </div>
-                <div class="thumbnail" style="background-image: url(Slides/Design/1.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/Design/2.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/Design/3.jpg);"></div>
-                <div class="thumbnail" style="background-image: url(Slides/Design/4.jpg);"></div>
-            </div>
-        </div>
-
-
-    </div>
+    </details>
 
 
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+    <!-- Resources -->
 
     <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="https://www.amcharts.com/lib/4/themes/amchartsdark.js"></script>
-    
+
+    <!-- <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script> -->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
     <script src="script.js"></script>
     <!-- <script>AOS.init()</script> -->
 </body>
+
 </html>

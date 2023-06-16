@@ -1,0 +1,304 @@
+var pieData1 = [
+    { category: "Building Arts", value: 40, description: "Architectural Expression I\nArchitectural Expression II\nArchitectural Design I: Shopping Mall\nArchitectural Design II: Family House\nArchitectural Design III: Art Mausam\nArchitectural Design IV: Children Hospital\nArchitectural Design V: Climate-Friendly Residential Complex\nRural Architecture I\nRural Architecture II\nAnalysis of Urban Spaces\nFinal Design: Family Book Garden\nApplication of computer in Architecture (Auto Cad)\nIntroduction to the World Architecture\nIntroduction to Contemporary Architecture" },
+    { category: "Building Technology", value: 25, description: "Building Materials\nTechnical Design\nConcrete Structures\nBuilding Statics\nStrength of Materials and Steel Structures\nElectrical Installation (Illumination and Acoustics)\nIntroduction to Building Restoration" },
+    { category: "Fundamentals", value: 20, description: "Applied Geometry\nPerspective Geometry\nMathematics and statistics\nFundamentals of Visual Arts\nBasics of Architectural Design I\nBasics of Architectural Design II\nHuman, Nature, and Architecture\nFundamentals of Anatomical Planning" },
+    { category: "Project Management", value: 15, description: "Quantity Surveying and Estimating\nSite Management and Organization\nBuilding Site Report I\nBuilding Site Report II" },
+];
+
+var pieData2 = [
+    { category: "Project Management", value: 50, description: "Project Management Standards (PMBOK, PRINCE2, PMDC, and OPM3)\nSelected topics in contemporary project Management \nProject Financial Management (Budget and Feasibility Analysis) \nRisk Management (Risk Identification, Analysis, and Mitigation)\nProject Planning and Control (WBS, Gantt Chart, Monitoring, and MS Project)\nFinal Thesis: A Guideline on Utilizing Project Teams’ Tacit Knowledge for Employing Agile Practices in a construction project." },
+    { category: "Organizational Management", value: 25, description: "Human Resource Management\nOrganizational Management of Consultant Offices\nOperation Research and Quantitative Methods in Management\nMulti Criteria Decision Analysis Methods (TOPSIS, Vikor, Electre, AHP, etc.)" },
+    { category: "Construction Management", value: 15, description: "Material Management\nAdvanced Construction Site Management" },
+    { category: "Contracts & Legal Issues", value: 10, description: "Legal Issues and Contracts in Construction\nSuccessful strategies for Negotiation" }
+];
+
+var pieData3 = [
+    { category: "Green Building Design & Simulation", value: 45, description: "Revit-BIM\nBuilding Energy Systems Design\nWhole Building Energy Modelling and Simulation\nCapstone: Greening Existing Budlings\nCapstone: New Building Energy System Design" },
+    { category: "Leadership & Management", value: 20, description: "Organizational Leadership\nSustainability and Leadership\nAnalytics and Interpretation for Applied Science" },
+    { category: "Business & Beand Marketing", value: 20, description: "Brands with Purpose\nBusiness Acumen for Technical Leaders\nBusiness Ethics Leadership" },
+    { category: "Sustainable Developement", value: 15, description: "Regenerative Development\nGreen Building Contemporary Practice" },
+];
+
+xyData = [{
+    "year": "2011-03",
+    "value": 50,
+    "program": "Microsoft Office Professional",
+    "bullet": "Icons/MicrosoftOfficeProfessional.png",
+}, {
+    "year": "2012-01",
+    "value": 80,
+    "program": "Autodesk Auto CAD",
+    "bullet": "Icons/AutodeskAutoCAD.png",
+}, {
+    "year": "2013-01",
+    "value": 60,
+    "program": "Microsoft Outlook",
+    "bullet": "Icons/MicrosoftOutlook.png",
+}, {
+    "year": "2014-01",
+    "value": 80,
+    "program": "Autodesk 3ds Max",
+    "bullet": "Icons/Autodesk3dsMax.png",
+}, {
+    "year": "2014-01",
+    "value": 40,
+    "program": "V-Ray Rendering",
+    "bullet": "Icons/Vray.png",
+}, {
+    "year": "2015-01",
+    "value": 70,
+    "program": "Adobe Photoshop CC",
+    "bullet": "Icons/AdobePhotoshop.png",
+}, {
+    "year": "2015-01",
+    "value": 20,
+    "program": "Adobe After Effect",
+    "bullet": "Icons/AdobeAfterEffects.png",
+}, {
+    "year": "2016-01",
+    "value": 80,
+    "program": "Prezi",
+    "bullet": "Icons/Prezi.png",
+}, {
+    "year": "2016-01",
+    "value": 40,
+    "program": "Microsoft Visio",
+    "bullet": "Icons/MicrosoftVisio.png",
+}, {
+    "year": "2017-01",
+    "value": 75,
+    "program": "Microsoft Project",
+    "bullet": "Icons/MicrosoftProject.png",
+}, {
+    "year": "2017-01",
+    "value": 50,
+    "program": "Autodesk Revit-Basics",
+    "bullet": "Icons/AutodeskRevit.png",
+}, {
+    "year": "2017-01",
+    "value": 15,
+    "program": "Mindjet Mind Manager",
+    "bullet": "Icons/MindjetMindManager.png",
+}, {
+    "year": "2018-01",
+    "value": 90,
+    "program": "Oracle Primavera P6",
+    "bullet": "Icons/OraclePrimaveraP6.png",
+}, {
+    "year": "2018-01",
+    "value": 60,
+    "program": "Adobe InDesign",
+    "bullet": "Icons/AdobeInDesign.png",
+}, {
+    "year": "2018-01",
+    "value": 30,
+    "program": "Microsoft SharePoint",
+    "bullet": "Icons/MicrosoftSharePoint.png",
+}, {
+    "year": "2019-01",
+    "value": 60,
+    "program": "Adobe Illustrator",
+    "bullet": "Icons/AdobeIllustrator.png",
+}, {
+    "year": "2020-01",
+    "value": 90,
+    "program": "IES Virtual Environment",
+    "bullet": "Icons/IESVirtualEnvironment.png",
+}, {
+    "year": "2020-01",
+    "value": 78,
+    "program": "eQUEST",
+    "bullet": "Icons/eQUEST.png",
+}, {
+    "year": "2020-01",
+    "value": 65,
+    "program": "Climate Consultant",
+    "bullet": "Icons/ClimateConsultant.png",
+}, {
+    "year": "2020-01",
+    "value": 45,
+    "program": "Athena Impact Estimator",
+    "bullet": "Icons/AthenaImpactEstimator.png",
+}, {
+    "year": "2020-01",
+    "value": 25,
+    "program": "Autodsk Revit-BIM",
+    "bullet": "Icons/AutodeskRevit.png",
+}, {
+    "year": "2020-01",
+    "value": 10,
+    "program": "Tableau Desktop",
+    "bullet": "Icons/TableauSoftware.png",
+}, {
+    "year": "2021-01",
+    "value": 55,
+    "program": "PMP Certification",
+    "bullet": "Icons/PMPCertification.png",
+}, {
+    "year": "2021-01",
+    "value": 35,
+    "program": "Python",
+    "bullet": "Icons/Python.png",
+}];
+
+var ganttData = [
+    {
+        category: "Freelance Architect & Interior Designer",
+        fromDate: "2013-04",
+        toDate: "2015-11",
+        // color: am4core.color("#c64b8c").brighten(1)
+    },
+    {
+        category: "Kimeh Sazan Kohan Full Construction Company, Tehran, Iran",
+        fromDate: "2016-09",
+        toDate: "2017-7",
+        // color: am4core.color("#e4a0f7").brighten(1)
+    },
+    {
+        category: "Rahyab Behineh Consulting Engineers Co., Tehran, Iran",
+        fromDate: "2017-07",
+        toDate: "2017-8",
+        // color: am4core.color("#b47ede").brighten(0)
+
+    },
+    {
+        category: "SAMIX Consulting Engineering Company, Tehran, Iran",
+        fromDate: "2017-12",
+        toDate: "2018-03",
+        // color: am4core.color("#8d4585").brighten(0)
+    },
+    {
+        category: "KSA Architecture Consulting Group, Tehran, Iran",
+        fromDate: "2017-09",
+        toDate: "2018-02",
+        // color: am4core.color("#B5338A").brighten(0)
+    },
+    {
+        category: "Kimeh Sazan Kohan Full Construction Company, Tehran, Iran",
+        fromDate: "2018-02",
+        toDate: "2019-12",
+        // color: am4core.color("#e4a0f7").brighten(1)
+    }
+];
+
+const getOrCreateTooltip = (chart) => {
+    let tooltipEl = chart.canvas.parentNode.querySelector('div');
+
+    if (!tooltipEl) {
+        tooltipEl = document.createElement('div');
+        tooltipEl.style.background = 'rgba(0, 0, 0, 0.7)';
+        // tooltipEl.style.borderRadius = '3px';
+        // tooltipEl.style.color = 'white';
+        // tooltipEl.style.opacity = 1;
+        // tooltipEl.style.pointerEvents = 'none';
+        tooltipEl.style.position = 'absolute';
+        tooltipEl.style.transform = 'translate(-50%, 0)';
+        // tooltipEl.style.transition = 'all .1s ease';
+
+        chart.canvas.parentNode.appendChild(tooltipEl);
+    }
+
+    return tooltipEl;
+};
+
+const customTooltip = (context) => {
+    // Tooltip Element
+    const { chart, tooltip } = context;
+    const tooltipEl = getOrCreateTooltip(chart);
+    tooltipEl.style.font = tooltip.options.bodyFont.string;
+    tooltipEl.style.padding = tooltip.options.padding + 'px ' + tooltip.options.padding + 'px';
+
+    // Hide if no tooltip
+    if (tooltip.opacity === 0) {
+        tooltipEl.style.opacity = 0;
+        return;
+    }
+
+    // Set Text
+    if (tooltip.body) {
+        const titleLines = tooltip.title || [];
+        const bodyLines = tooltip.body.map(b => b.lines);
+
+        tooltipEl.innerHTML = titleLines + "<br />" + bodyLines;
+
+        tooltipEl.style.left = "auto";
+        tooltipEl.style.right = "auto";
+    }
+
+    const { offsetLeft: positionX, offsetTop: positionY } = chart.canvas;
+    tooltipEl.style.left = positionX + tooltip.caretX + "px";
+    tooltipEl.style.top = positionY + tooltip.caretY + "px";
+    tooltipEl.style.opacity = 1;
+
+
+};
+
+const pieChart = document.getElementById("multi-pie-container");
+
+new Chart(pieChart, {
+    type: "doughnut",
+    data: {
+        datasets: [{
+            label: "Dataset 1",
+            data: pieData1.map(d => d.value),
+            backgroundColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            borderColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            borderWidth: 1,
+            // hoverBackgroundColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            // hoverBorderColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            hoverBorderWidth: 2,
+            hoverOffset: 20,
+            weight: 1,
+        }, {
+            label: "Dataset 2",
+            data: pieData2.map(d => d.value),
+            backgroundColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            borderColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            borderWidth: 1,
+            // hoverBackgroundColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            // hoverBorderColor: ["#c64b8c", "#e4a0f7", "#b47ede", "#8d4585"],
+            hoverBorderWidth: 2,
+            hoverOffset: 20,
+            weight: 1,
+        }],
+        labels: pieData1.map(d => d.category),
+    },
+    options: {
+        responsive: true,
+        // maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: "bottom",
+                labels: {
+                    boxWidth: 10,
+                    boxHeight: 10,
+                    padding: 20,
+                    usePointStyle: true,
+                    font: {
+                        size: 12,
+                        weight: "bold",
+                    },
+                },
+            },
+            tooltip: {
+                enabled: false,
+                position: 'nearest',
+                external: customTooltip,
+                callbacks: {
+                    label: function (context) {
+                        var label = context.dataset.label || '';
+                        var value = context.dataset.data[context.dataIndex];
+                        return pieData1[context.dataIndex].description;
+                    }
+                }
+            },
+        },
+    }
+});
+
+document.onreadystatechange = () => {
+    if (document.readyState === 'complete') {
+        document.querySelector(".pre-loading").style.opacity = "0";
+        document.querySelector(".pre-loading").style.visibility = "hidden";
+    }
+};
