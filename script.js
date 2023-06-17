@@ -839,7 +839,6 @@ document.onreadystatechange = () => {
         software_showcase.innerHTML = software_showcase_content;
 
         function adjustDetails() {
-            let isDesktop = window.innerWidth > 700;
             let details = document.querySelectorAll("details");
             for (let i = 0; i < details.length; i++)
                 if (isDesktop && details[i].id != "portfolio") {
@@ -852,8 +851,13 @@ document.onreadystatechange = () => {
         }
 
         // on resize
+        var isDesktop = window.innerWidth > 700;
         window.addEventListener('resize', function () {
-            adjustDetails();
+            let isNowDesktop = window.innerWidth > 700;
+            if (isDesktop != isNowDesktop) {
+                isDesktop = isNowDesktop;
+                adjustDetails();
+            }
         });
         adjustDetails();
 

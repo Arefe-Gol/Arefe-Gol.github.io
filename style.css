@@ -55,7 +55,11 @@ a {
 
 details>summary {
     list-style: none;
-    --toggle-size: calc(0.3em);
+    --toggle-size: 0.3em;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
 }
 
 details .details-toggle {
@@ -823,6 +827,10 @@ details[open] .icon-title {
     #software-showcase {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #info {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -867,6 +875,12 @@ details[open] .icon-title {
     #profile {
         flex-direction: column;
     }
+
+    #intro .icon-title>p {
+        padding-bottom: 10px;
+        margin-bottom: 4px;
+        border-bottom: 2px solid var(--text-color);
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -877,8 +891,8 @@ details[open] .icon-title {
 
 
 @media screen and (orientation:portrait) {
-    #info {
+    /* #info {
         flex-direction: column;
         height: auto;
-    }
+    } */
 }
